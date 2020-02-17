@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Netxus Desarrollo de Software</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
@@ -69,10 +70,10 @@
                     </div>
                     <div class="col-lg-6 col-md-12 about-title">
                         <h2 class="text-uppercase pt-5">
-                            <h1 class="section-title">Sobre Nosotros</h1>
+                            <h1 class="section-title" data-aos="fade-left" data-aos-delay="100">Sobre Nosotros</h1>
                             
                         </h2>
-                        <div class="paragraph py-4 w-75">
+                        <div class="paragraph py-4 w-75" data-aos="fade-up-left" data-aos-delay="300">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum iure obcaecati vel
                                 possimus officia maiores perferendis ut! Quos, perspiciatis.
@@ -91,41 +92,41 @@
 
             <div class="services-section">
                 <div class="inner-width">
-                  <h1 class="section-title">Nuestros servicios</h1>
+                  <h1 class="section-title" data-aos="flip-up">Nuestros servicios</h1>
                   <div class="border"></div>
                   <div class="services-container">
           
-                    <div class="service-box">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="100">
                       <div class="service-icon">
                         <i class="fas fa-paint-brush"></i>
                       </div>
-                      <div class="service-title">Web Designs</div>
+                      <div class="service-title">Diseños web</div>
                       <div class="service-desc">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
                       </div>
                     </div>
           
-                    <div class="service-box">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="300">
                       <div class="service-icon">
                         <i class="fas fa-code"></i>
                       </div>
-                      <div class="service-title">Web Development</div>
+                      <div class="service-title">Desarrollo web</div>
                       <div class="service-desc">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
                       </div>
                     </div>
           
-                    <div class="service-box">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="600">
                       <div class="service-icon">
                         <i class="fas fa-brush"></i>
                       </div>
-                      <div class="service-title">Responsive Designs</div>
+                      <div class="service-title">Diseños adaptables</div>
                       <div class="service-desc">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
                       </div>
                     </div>
           
-                    <div class="service-box">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="100">
                       <div class="service-icon">
                         <i class="fas fa-object-ungroup"></i>
                       </div>
@@ -135,21 +136,21 @@
                       </div>
                     </div>
           
-                    <div class="service-box">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="300">
                       <div class="service-icon">
                         <i class="fas fa-database"></i>
                       </div>
-                      <div class="service-title">Databases</div>
+                      <div class="service-title">Bases de datos</div>
                       <div class="service-desc">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
                       </div>
                     </div>
           
-                    <div class="service-box">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="600">
                       <div class="service-icon">
                         <i class="fab fa-android"></i>
                       </div>
-                      <div class="service-title">Android</div>
+                      <div class="service-title">Aplicaciones android</div>
                       <div class="service-desc">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
                       </div>
@@ -305,7 +306,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="container carousel py-lg-5">
                 <div class="owl-carousel owl-theme">
                     <div class="client row">
@@ -409,8 +409,10 @@
     <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
     <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
     <script src="./js/main.js"></script>
-
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
